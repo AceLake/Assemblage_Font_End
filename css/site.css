@@ -1,0 +1,69 @@
+body{
+    background-color: #FAF8F7;
+}
+.navbar{
+    background-color: #952004;
+    color: #FAF8F7;
+    padding-left: 10%;
+    font-family: Merriweather;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-nav{
+    padding-left: 15px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.justify-content-end{
+    padding-right: 25px;
+}
+
+.nav-search{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-secondary{
+    margin-left: 5px;
+    background-color: #952004;
+    border-color: #FAF8F7;
+}
+
+.btn-secondary:hover{
+    background-color: #FAF8F7;
+    border-color: #FAF8F7;
+    color: #952004;
+}
+
+.main{
+    border: none; /* remove the default border */
+    border: 3px solid #952004; /* set the border width and color */
+    border-radius: 10px; /* create rounded edges on the border */
+    padding: 10px; /* add some padding inside the border */
+    border-radius: 25px; /* create a circular button */
+    background-color: #FAF8F7; /* set the background color */
+    color: #952004; /* set the text color */
+    padding: 10px 20px; /* add some padding inside the button */
+    display: flex;
+    justify-content: center; /* center the child horizontally */
+    align-items: center; /* center the child vertically */
+    margin-left: 35px;
+    margin-right: 35px;
+    height: 600px;
+}
