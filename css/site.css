@@ -50,20 +50,35 @@ body{
     border-color: #FAF8F7;
     color: #952004;
 }
-
-.main{
-    border: none; /* remove the default border */
+.message-top-section{
     border: 3px solid #952004; /* set the border width and color */
-    border-radius: 10px; /* create rounded edges on the border */
-    padding: 10px; /* add some padding inside the border */
-    border-radius: 25px; /* create a circular button */
+    border-bottom-width: 0;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     background-color: #FAF8F7; /* set the background color */
     color: #952004; /* set the text color */
-    padding: 10px 20px; /* add some padding inside the button */
+    padding: 0px; /* add some padding inside the button */
     display: flex;
     justify-content: center; /* center the child horizontally */
-    align-items: center; /* center the child vertically */
+    /* align-items: center; center the child vertically */
+    margin-left: 35px;
+    margin-right: 35px;
+    height: 70px;
+    padding-top: 0px;
+}
+
+.main{
+    border: 3px solid #952004; /* set the border width and color */
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;    
+    background-color: #FAF8F7; /* set the background color */
+    color: #952004; /* set the text color */
+    padding: 0px; /* add some padding inside the button */
+    display: flex;
+    justify-content: center; /* center the child horizontally */
+    /* align-items: center; center the child vertically */
     margin-left: 35px;
     margin-right: 35px;
     height: 600px;
+    padding-top: 0px;
 }
