@@ -50,35 +50,66 @@ body{
     border-color: #FAF8F7;
     color: #952004;
 }
+
+.main{
+    display: flex;
+    border: 3px solid #952004; /* set the border width and color */
+    border-radius: 25px;    
+    background-color: #FAF8F7; /* set the background color */
+    color: #952004; /* set the text color */
+    padding: 0px; /* add some padding inside the button */
+    display: flex;
+    margin-left: 35px;
+    margin-right: 35px;
+    height: 600px;
+    padding-top: 0px;
+}
+
+.group-body{  
+    border: 3px solid #952004; /* set the border width and color */
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-left-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: #FAF8F7; /* set the background color */
+    color: #952004; /* set the text color */
+    display: flex;
+    height: 100%;
+    width: 30%;
+}
+
+.message-section{
+    width: 100%;
+}
+
 .message-top-section{
     border: 3px solid #952004; /* set the border width and color */
-    border-bottom-width: 0;
+    border-width: 0;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     background-color: #FAF8F7; /* set the background color */
     color: #952004; /* set the text color */
     padding: 0px; /* add some padding inside the button */
     display: flex;
-    justify-content: center; /* center the child horizontally */
-    /* align-items: center; center the child vertically */
-    margin-left: 35px;
-    margin-right: 35px;
-    height: 70px;
+    height: 15%;
     padding-top: 0px;
+    width: 100%;
 }
-
-.main{
+.message-body{
     border: 3px solid #952004; /* set the border width and color */
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;    
     background-color: #FAF8F7; /* set the background color */
     color: #952004; /* set the text color */
-    padding: 0px; /* add some padding inside the button */
     display: flex;
     justify-content: center; /* center the child horizontally */
     /* align-items: center; center the child vertically */
-    margin-left: 35px;
-    margin-right: 35px;
-    height: 600px;
+    height: 85%;
     padding-top: 0px;
+    width: 100%;
 }
+
