@@ -79,16 +79,73 @@ body{
     justify-content: center;
     align-items: center;
     padding-right: 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
+
+div::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Grop Box Section */
 
 .group-box{
     align-self: center;
     border-radius: 25px;
     background-color: #952004;
     margin: 20px;
-    height: 25%;
+    height: 22%;
     width: 100%;
+    display: flex;
 }
+
+.group-box:hover{
+    align-self: center;
+    border-radius: 25px;
+    background-color: #b63625;
+    margin: 20px;
+    height: 22%;
+    width: 100%;
+    cursor:pointer;
+}
+
+.group-box-selected{
+    border: 3px solid #952004; /* set the border width and color */
+    border-radius: 25px;
+    background-color: #FAF8F7;
+    margin: 20px;
+    height: 22%;
+    width: 100%;
+    display: flex;
+}
+
+.group-box-image{
+    margin: 12px;
+    margin-left: 25px;
+}
+
+.group-box-text{
+    color: #FAF8F7;
+    font-family: Merriweather;
+}
+
+.group-box-text-title{
+    padding-top: 10%;
+    font-size: 25px;
+}
+
+.group-box-text-selected{
+    color: #952004;
+    font-family: Merriweather;
+}
+
+.group-box-text-title-selected{
+    padding-top: 10%;
+    font-size: 25px;
+}
+
+/* Message Section */
 
 .message-section{
     width: 100%;
@@ -103,7 +160,7 @@ body{
     color: #952004; /* set the text color */
     padding: 0px; /* add some padding inside the button */
     display: flex;
-    height: 15%;
+    height: 20%;
     padding-top: 0px;
     width: 100%;
 }
@@ -119,7 +176,7 @@ body{
     display: flex;
     justify-content: center; /* center the child horizontally */
     /* align-items: center; center the child vertically */
-    height: 85%;
+    height: 80%;
     padding-top: 0px;
     width: 100%;
 }
