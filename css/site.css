@@ -74,9 +74,21 @@ body{
     border-bottom-width: 0;
     background-color: #FAF8F7; /* set the background color */
     color: #952004; /* set the text color */
-    display: flex;
     height: 100%;
-    width: 30%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    scr
+}
+
+.group-box{
+    align-self: center;
+    border-radius: 25px;
+    background-color: #952004;
+    margin: 20px;
+    height: 25%;
+    width: 100%;
 }
 
 .message-section{
